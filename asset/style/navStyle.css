@@ -1,0 +1,37 @@
+header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 3rem;
+    border-bottom: rgb(73, 73, 73) solid 1px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    border-bottom: white solid 1px;
+}
+
+#logo:hover {
+    transition: all 0.5s;
+    border-bottom: rgba(44, 44, 44, 0.986) solid 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        padding: 0.3rem 1rem;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+    }
+}
