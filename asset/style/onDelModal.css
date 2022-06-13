@@ -1,0 +1,41 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 110px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  font-size: 2.2rem;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 2.5rem;
+  width: 50%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-content > p {
+  margin: 1rem 0;
+}
+
+.modal-content > span {
+  margin-right: 2rem;
+  color: gray;
+  cursor: pointer;
+  border-bottom: white solid 2px;
+}
+
+.modal-content > span:hover {
+  transition: all 0.7s;
+  color: rgb(59, 59, 59);
+  border-bottom: rgba(44, 44, 44, 0.986) solid 2px;
+}
