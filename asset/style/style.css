@@ -77,7 +77,7 @@ article {
   width: 37%;
 }
 
-/* .bookItem {
+.bookItem {
   display: flex;
   padding: 1rem 0;
   border-top: rgb(139, 139, 139) solid 1px;
@@ -118,7 +118,7 @@ article {
 .bookItem-btn-wrapper img:hover {
   transition: all 0.5s;
   padding-right: 1rem;
-} */
+}
 
 @media only screen and (max-width: 768px) {
   main {
