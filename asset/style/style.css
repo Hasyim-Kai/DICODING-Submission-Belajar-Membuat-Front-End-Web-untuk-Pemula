@@ -72,10 +72,10 @@ article {
   padding-bottom: 1rem;
 }
 
-/* #finishedBook {
+#finishedBook {
   padding: 1rem;
   width: 37%;
-} */
+}
 
 /* .bookItem {
   display: flex;
@@ -144,7 +144,7 @@ article {
     border-right: 0;
   }
 
-  /* #finishedBook {
+  #finishedBook {
     width: 100%;
-  } */
+  }
 }
