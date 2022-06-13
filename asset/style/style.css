@@ -58,17 +58,19 @@ article {
   transition: all 0.7s;
 }
 
-/* #unfinishedBook {
+#unfinishedBook {
   padding: 1rem;
   width: 37%;
   border-right: rgb(56, 56, 56) solid 2px;
 }
 
-#unfinishedBook > p, #finishedBook > p, #addBook p {
+#unfinishedBook > p,
+#finishedBook > p,
+#addBook p {
   font-size: 2rem;
   margin: 0;
   padding-bottom: 1rem;
-} */
+}
 
 /* #finishedBook {
   padding: 1rem;
@@ -136,11 +138,11 @@ article {
     width: 90%;
   }
 
-  /* #unfinishedBook {
+  #unfinishedBook {
     width: 100%;
     border-bottom: rgb(56, 56, 56) solid 2px;
     border-right: 0;
-  } */
+  }
 
   /* #finishedBook {
     width: 100%;
